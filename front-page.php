@@ -65,17 +65,15 @@ get_header();
  </div>
 </section>
 
-<section class="wpem_theme_water-sports-value-section">
+<section class="wpem_theme_water-sports-value-section relative">
     <div class="container">
         <div class="section_title text-center">
             <h3>WELCOME TO Water sports</h3>
             <h2>our value</h2>
         </div>
-        <div class="row relative">
+        <div class="row">
             <div class="column column-4">
-                <div class="our-value-img">
-                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ourvalue-img.jpg" alt="" />
-                </div>
+
             </div>
            <div class="column column-8 our-value-data">
             <h2>Water sports life is a good existence.</h2>
@@ -107,7 +105,11 @@ get_header();
              <button class="theme_btn">learn more</button>           
            </div>
         </div>
-        <div class="row mt-8">
+    </div>
+</section>
+<section class="pt-0">
+    <div class="container">
+    <div class="row counter-container">
             <div class="column column-3">
                 <div class="counter-item">
                     <h2>750+</h2>
@@ -135,7 +137,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="wpem_theme_water-sports-why-us-section">
+<section class="wpem_theme_water-sports-why-us-section relative">
     <div class="container">
         <div class="section_title text-center">
             <h3>WHY CHOOSE US</h3>
@@ -146,6 +148,9 @@ get_header();
               <div class="why-us-card flex-middle">
                 <div class="why-us-icon mr-3">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/whyus1.png" alt="demo" >
+                <div class="why-us-number">
+                    <p>1</p>
+                </div>
                 </div>
                 <div class="why-us-data">
                     <h2>advanced skills</h2>
@@ -155,27 +160,36 @@ get_header();
               <div class="why-us-card flex-middle text-right row-reverse">
                 <div class="why-us-icon ml-3">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/whyus2.png" alt="demo" >
+                <div class="why-us-number">
+                    <p>2</p>
+                </div>
                 </div>
                 <div class="why-us-data">
-                    <h2>advanced skills</h2>
+                    <h2>PRO LEVEL SURFING</h2>
                     <p>Lorem ipsum dolor sit amet, con ctetur ad ip isicing elit, sed do eiusmod tem por incidi sit.</p>
                 </div>
               </div>
               <div class="why-us-card flex-middle">
                 <div class="why-us-icon mr-3">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/whyus3.png" alt="demo" >
+                <div class="why-us-number">
+                    <p>3</p>
+                </div>
                 </div>
                 <div class="why-us-data">
-                    <h2>advanced skills</h2>
+                    <h2>Affordable</h2>
                     <p>Lorem ipsum dolor sit amet, con ctetur ad ip isicing elit, sed do eiusmod tem por incidi sit.</p>
                 </div>
               </div>
               <div class="why-us-card flex-middle text-right row-reverse">
                 <div class="why-us-icon ml-3">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/whyus4.png" alt="demo" >
+                <div class="why-us-number">
+                    <p>4</p>
+                </div>
                 </div>
                 <div class="why-us-data">
-                    <h2>advanced skills</h2>
+                    <h2>Trusted</h2>
                     <p>Lorem ipsum dolor sit amet, con ctetur ad ip isicing elit, sed do eiusmod tem por incidi sit.</p>
                 </div>
               </div>
@@ -188,7 +202,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="wpem_theme_water-sports-activity-section">
+<section class="wpem_theme_water-sports-activity-section pt-0">
     <div class="container">
         <div class="section_title text-center">
             <h3>Explore the excitement</h3>
@@ -261,7 +275,7 @@ get_header();
 </section>
 <section class="wpem_theme_water-sports-curve-section relative">
 <div class="curve-top">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/curvetop.png" alt="curve" >
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/curvebottom.png" alt="curve" >    
 </div>
  <div class="container">
     <div class="row">
@@ -283,7 +297,7 @@ get_header();
     </div>
  </div>
  <div class="curve-bottom">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/curvebottom.png" alt="curve" >
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/curvetop.png" alt="curve" >
  </div>
 </section>
 
@@ -380,9 +394,7 @@ get_header();
     <div class="container">
       <div class="row">
         <div class="column column-6">
-        <div class="testimonial-image">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >
-        </div>
+
         </div>
         <div class="column column-6">
         <div class="testimonials">
@@ -411,9 +423,9 @@ get_header();
         </div>
         <div class="row">
             <div class="column column-3">
-                <div class="team-card">
+                <div class="team-card relative">
                     <div class="team-img">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >    
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team1.png" alt="team" >    
                     </div>
                     <div class="team-content">
                         <h2>Harvey E. Mitton</h2>
@@ -429,13 +441,13 @@ get_header();
                 </div>
             </div>
             <div class="column column-3">
-                <div class="team-card">
+                <div class="team-card relative">
                     <div class="team-img">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >    
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team2.png" alt="demo" >    
                     </div>
                     <div class="team-content">
-                        <h2>Harvey E. Mitton</h2>
-                        <small>Boat Skipper</small>
+                        <h2>Eileen Gray</h2>
+                        <small>Instructor</small>
                         <div class="team-socials">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
@@ -447,13 +459,13 @@ get_header();
                 </div>
             </div>
             <div class="column column-3">
-                <div class="team-card">
+                <div class="team-card relative">
                     <div class="team-img">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >    
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team3.png" alt="demo" >    
                     </div>
                     <div class="team-content">
-                        <h2>Harvey E. Mitton</h2>
-                        <small>Boat Skipper</small>
+                        <h2>Mary Bernard</h2>
+                        <small>Surf Instructor</small>
                         <div class="team-socials">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
@@ -465,13 +477,13 @@ get_header();
                 </div>
             </div>
             <div class="column column-3">
-                <div class="team-card">
+                <div class="team-card relative">
                     <div class="team-img">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >    
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team4.png" alt="demo" >    
                     </div>
                     <div class="team-content">
-                        <h2>Harvey E. Mitton</h2>
-                        <small>Boat Skipper</small>
+                        <h2>Mark P. Gonzales</h2>
+                        <small>diving teacher</small>
                         <div class="team-socials">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
@@ -486,24 +498,35 @@ get_header();
     </div>
 </section>
 <section class="wpem_theme_water-sports-newsletter-section">
+    <div class="vector-top">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/newsletter-vector-top.png" alt="demo" >
+    </div>
     <div class="container">
         <div class="row">
             <div class="column column-6">
+              <div class="start-diving">
                 <h2>READY TO START DIVING</h2>
                 <p>Suspendisse justo neque, cursus in consequat in, faucibus et odio. Donec varius accumsan orci, at tristique lectus rhoncus quis.</p>
                 <button class="theme_btn">get started</button>
+              </div>
             </div>
             <div class="column column-6">
                 <div class="newsletter">
                     <h2>Subscribe to our newsletter!</h2>
                     <p>Subscribe to our newsletter ans stay updated.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                    <div class="newsletter-form">
-                        <input type="email" name="Enter your email address" id="email">
-                        <input type="submit" value="subscribe">
+                        <div class="column column-12">
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" placeholder="Enter your email address" id="email" class="newsletter-input">
+                        </div>
+                        <input type="submit" value="subscribe" class="theme_btn">
                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="vector-bottom">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/newsletter-vector-bottom.png" alt="demo" >
     </div>
 </section>
 <section class="wpem_theme_water-sports-partner-section">
@@ -511,114 +534,114 @@ get_header();
         <div class="row">
             <div class="column column-2">
                 <div class="partner">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partner1.png" alt="demo" >
                 </div>
             </div>
             <div class="column column-2">
                 <div class="partner">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partner2.png" alt="demo" >
                 </div>
             </div>
             <div class="column column-2">
                 <div class="partner">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partner3.png" alt="demo" >
                 </div>
             </div>
             <div class="column column-2">
                 <div class="partner">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partner4.png" alt="demo" >
                 </div>
             </div>
             <div class="column column-2">
                 <div class="partner">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partner5.png" alt="demo" >
                 </div>
             </div>
             <div class="column column-2">
                 <div class="partner">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" >
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partner6.png" alt="demo" >
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="wpem_theme_water-sports-instagram-section">
+<section class="wpem_theme_water-sports-instagram-section pt-0">
     <div class="container">
         <div class="row">
-            <div class="column">
-                <div class="instagram">
+            <div class="">
+                <div class="instagram relative">
                     <div class="insta-img">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" > 
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram1.png" alt="demo" > 
                     </div>
                     <div class="insta-icon">
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="">
                 <div class="instagram">
                     <div class="insta-img">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" > 
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram2.png" alt="demo" > 
                     </div>
                     <div class="insta-icon">
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="">
                 <div class="instagram">
                     <div class="insta-img">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" > 
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram3.png" alt="demo" > 
                     </div>
                     <div class="insta-icon">
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="">
                 <div class="instagram">
                     <div class="insta-img">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" > 
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram4.png" alt="demo" > 
                     </div>
                     <div class="insta-icon">
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="">
                 <div class="instagram">
                     <div class="insta-img">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" > 
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram5.png" alt="demo" > 
                     </div>
                     <div class="insta-icon">
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="">
                 <div class="instagram">
                     <div class="insta-img">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" > 
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram6.png" alt="demo" > 
                     </div>
                     <div class="insta-icon">
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="">
                 <div class="instagram">
                     <div class="insta-img">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" > 
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram7.png" alt="demo" > 
                     </div>
                     <div class="insta-icon">
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="">
                 <div class="instagram">
                     <div class="insta-img">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo.jpg" alt="demo" > 
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram8.png" alt="demo" > 
                     </div>
                     <div class="insta-icon">
                         <a href="#"><i class="fa fa-instagram"></i></a>

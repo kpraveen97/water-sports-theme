@@ -20,10 +20,10 @@ $column_no = absint($event_listing_theme_options['event-listing-water-sports-foo
 
     <div class="wpem_water-sports_theme-footer">
         <div class="container">
-            <div class="row">
+            <div class="row align-middle" style="padding-bottom:50px; border-bottom:1px solid #CCCCCC;">
                 <div class="column column-6">
                     <div class="wpem_water-sports_theme-footer-site-info">
-                        <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.jpg" alt="Water Sports" /></a>
+                        <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Water Sports" /></a>
                     </div>
                 </div>
                 <div class="column column-6">
@@ -36,17 +36,17 @@ $column_no = absint($event_listing_theme_options['event-listing-water-sports-foo
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="column column-6">
+            <div class="row footer-address">
+                <div class="column column-4">
                     <div class="wpem_water-sports_theme-footer-site-links">
                         <h4>Address</h4>
                         <p>785 15h Street, Office 478 Trieste, De 81566</p>
                     </div>
                 </div>
-                <div class="column column-6 flex-middle">
+                <div class="column column-8 flex-center">
                   <div class="footer-icon-box flex-middle">
                     <div class="icon-box-icon">
-
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/phone-icon.png" alt="call us" > 
                     </div>
                     <div class="icon-box-data">
                         <h2>Call Us</h2>
@@ -55,7 +55,7 @@ $column_no = absint($event_listing_theme_options['event-listing-water-sports-foo
                   </div>
                   <div class="footer-icon-box flex-middle">
                     <div class="icon-box-icon">
-
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/at-icon.png" alt="mail us" >
                     </div>
                     <div class="icon-box-data">
                         <h2>Email</h2>
@@ -86,7 +86,7 @@ $column_no = absint($event_listing_theme_options['event-listing-water-sports-foo
             endif;
             ?>
             <div class="copyright">
-                <?php echo $copyright; ?>
+                <p>© 2022 Water Sports – WP Event Manager All Rights Reserved.</p>
             </div>
             <div class="footer-socials">
                 <ul class="flex-middle">
